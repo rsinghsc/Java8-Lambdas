@@ -3,7 +3,6 @@ package java8;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
-import java.util.List;
 
 public class ComparatorTest {
 
@@ -18,7 +17,6 @@ public class ComparatorTest {
     private static ArrayList<Person> personList;
 
     public static void main(String[] args) {
-
 
 
         // Sort with Inner Class
