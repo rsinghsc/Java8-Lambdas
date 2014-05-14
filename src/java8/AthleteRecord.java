@@ -39,7 +39,7 @@ public class AthleteRecord {
     }
 
     public void setCountry(String country) {
-        country = country;
+        this.country = country;
     }
 
     public Integer getYear() {
@@ -94,10 +94,11 @@ public class AthleteRecord {
         StringJoiner joiner = new StringJoiner(" ");
         joiner.add(name);
         joiner.add(country);
+        joiner.add(year.toString());
         joiner.add(goldMedals.toString());
         joiner.add(silverMedals.toString());
         joiner.add(bronzeMedals.toString());
-        return joiner.toString() ;
+        return joiner.toString();
     }
 
 
